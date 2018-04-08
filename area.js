@@ -1,5 +1,4 @@
 (function ($,win,doc) {
-  // body...
   var pluginName = 'Area'
 
   // 通用函数
