@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,ol{
+  list-style: none;
+}
+a,a:hover{
+  text-decoration: none;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clearfix{
+  zoom:1;
+}
+.clearfix:after{
+  content: '';
+  display:block;
+  height: 0;
+  clear: both;
+  overflow:hidden;
+}
+.area{
+  width: 107.39px;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 0 21px;
+  line-height: 49px;
+  background-color: #fff;
+  font-size: 12px;
+  height: 49px;
+}
+.area a{
+  color: #656565;
+}
+.area .d-icon.area-arrow {
+  display: inline-block;
+  background: url('./image/arrow-down-icon.png') no-repeat;
+  background-size: 8px 5px;
+  width: 8px;
+  height: 5px;
+  position: relative;
+  top: -2px;
+  left: 6px;
+}
+.area .area-content {
+  display: none;
+}
+.area:hover .area-content {
+  display: block;
+  position: absolute;
+  top: 49px;
+  box-shadow: 0 0 16px 0 rgba(53,53,53,.2);
+  width: 384px;
+  box-sizing: border-box;
+  left: 0px;
+  background: #fff;
+  padding: 16px 24px 24px 24px;
+  font-size: 0px;
+}
+.area-item.area-head {
+  display: block;
+  margin-left: 0px;
+}
+.area-item.all-area-choosed {
+  color: #316ccb;
+}
+.area-item {
+  color: #656565;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.5;
+  vertical-align: middle;
+  width: 60px;
+  margin-left: 30px;
+  position: relative;
+}
+.top-list .city-part {
+  width: 100%;
+  position: relative;
+  display: none;
+}
+.d-icon.trangle {
+  display: block;
+  background: url('./image/triangle.png') no-repeat;
+  background-size: 17px 9px;
+  width: 17px;
+  height: 9px;
+}
+.list-holder {
+  width: 11px;
+  height: 2px;
+  background-color: #fcfcfc;
+  z-index: 200;
+}
+.area-item.hover {
+  color: #316ccb;
+}
+.area-item:hover {
+  color: #316ccb;
+}
+.area:hover #choosed-city{
+  color: #316ccb;
+}
+.area:hover .area-holder {
+  height: 10px;
+  background: #fff;
+  position: absolute;
+  top: -10px;
+  width: 107.39px;
+  left: 0px;
+}
+.area .same-city {
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 4px;
+  color: #656565;
+}
+.area .area-seperate {
+  height: 0px;
+  width: 100%;
+  border-bottom: 1px solid #E5E5E5;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.area .same-city-value {
+  color: #316ccb;
+  margin-left: 4px;
+}
+.area .history-area {
+  font-size: 0px;
+  line-height: 18px;
+  color: #656565;
+}
+.area .history-area>label {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.area .history-area .history-list {
+  display: inline-block;
+  font-size: 0px;
+  margin-left: 4px;
+}
+.area .history-area .history-item {
+  width: 48px;
+  overflow: hidden;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 18px;
+  vertical-align: middle;
+  margin-right: 8px;
+  white-space: nowrap;
+}
+.area .history-area .history-item:hover {
+  color: #316ccb;
+}
+.area .history-area .history-item:last-child {
+  margin-right: 0px;
+}
+.top-list .municipality-list{
+  display: block;
+  width: 100%;
+  height: 34px;
+}
+.top-list .province-item {
+  width: 48px;
+  font-size: 12px;
+  line-height: 18px;
+  margin-right: 24px;
+  margin-top: 16px;
+  color: #656565;
+  position: relative;
+}
+.top-list .province-item:hover,
+.top-list .province-item:hover > a{
+  color: #316ccb;
+}
+.down-list .city-item {
+  width: 48px;
+  font-size: 12px;
+  line-height: 18px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+  color: #656565;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.down-list .city-item:hover>a{
+  color: #316ccb;
+}
+.down-list .city-item:nth-child(5n+5) {
+  margin-right: 0px;
+}
+.down-list {
+  width: 336px;
+  box-sizing: border-box;
+  border: 1px solid #E5E5E5;
+  background-color: #FCFCFC;
+  padding: 8px 15px 0 15px;
+}
+.area #choosed-city {
+  display: inline-block;
+  width: 48px;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: middle;
+  color: #555;
+}
+.area:hover {
+  color: #316ccb;
+  position: relative;
+  z-index: 12;
+  height: 50px;
+  box-shadow: 0 0 16px 0 rgba(53,53,53,.2);
+}
+.area:hover .d-icon.area-arrow {
+  background: url('./image/arrow-down-hover-icon.png') no-repeat;
+  background-size: 8px 5px;
+  transform: rotate(180deg);
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ym-area",
+  "version": "1.0.0",
+  "description": "工作中用到的地区组件封装",
+  "main": "area.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymwangel/ym-area.git"
+  },
+  "keywords": [
+    "地区组件"
+  ],
+  "author": "ymwangel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ymwangel/ym-area/issues"
+  },
+  "homepage": "https://github.com/ymwangel/ym-area#readme"
+}
