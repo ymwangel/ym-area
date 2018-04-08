@@ -1,6 +1,6 @@
 {
   "name": "ym-area",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "工作中用到的地区组件封装",
   "main": "area.js",
   "scripts": {
